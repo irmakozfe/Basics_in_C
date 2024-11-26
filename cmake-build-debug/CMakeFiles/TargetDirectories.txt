@@ -8,7 +8,6 @@ C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug/CMakeFiles/greatestc
 C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug/CMakeFiles/leapyear.dir
 C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug/CMakeFiles/bytesofdatatypes.dir
 C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug/CMakeFiles/square.dir
-C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug/CMakeFiles/pascalstriangle.dir
 C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug/CMakeFiles/copy.dir
 C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug/CMakeFiles/foo.dir
 C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug/CMakeFiles/structs.dir
@@ -36,5 +35,6 @@ C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug/CMakeFiles/binaryrep
 C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug/CMakeFiles/containsnumber.dir
 C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug/CMakeFiles/vowels.dir
 C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug/CMakeFiles/stars.dir
+C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug/CMakeFiles/students.dir
 C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

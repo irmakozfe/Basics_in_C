@@ -371,39 +371,6 @@ build square.exe: C_EXECUTABLE_LINKER__square_Debug CMakeFiles/square.dir/basics
   TARGET_PDB = square.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target pascalstriangle
-
-
-#############################################
-# Order-only phony target for pascalstriangle
-
-build cmake_object_order_depends_target_pascalstriangle: phony || .
-
-build CMakeFiles/pascalstriangle.dir/advanced/pascalstriangle.c.obj: C_COMPILER__pascalstriangle_unscanned_Debug C$:/Users/Irmak/CLionProjects/ExercisesInC/advanced/pascalstriangle.c || cmake_object_order_depends_target_pascalstriangle
-  DEP_FILE = CMakeFiles\pascalstriangle.dir\advanced\pascalstriangle.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\pascalstriangle.dir
-  OBJECT_FILE_DIR = CMakeFiles\pascalstriangle.dir\advanced
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target pascalstriangle
-
-
-#############################################
-# Link the executable pascalstriangle.exe
-
-build pascalstriangle.exe: C_EXECUTABLE_LINKER__pascalstriangle_Debug CMakeFiles/pascalstriangle.dir/advanced/pascalstriangle.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\pascalstriangle.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = pascalstriangle.exe
-  TARGET_IMPLIB = libpascalstriangle.dll.a
-  TARGET_PDB = pascalstriangle.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target copy
 
 
@@ -1294,6 +1261,39 @@ build stars.exe: C_EXECUTABLE_LINKER__stars_Debug CMakeFiles/stars.dir/advanced/
   TARGET_IMPLIB = libstars.dll.a
   TARGET_PDB = stars.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target students
+
+
+#############################################
+# Order-only phony target for students
+
+build cmake_object_order_depends_target_students: phony || .
+
+build CMakeFiles/students.dir/linkedlists/examexercises/students.c.obj: C_COMPILER__students_unscanned_Debug C$:/Users/Irmak/CLionProjects/ExercisesInC/linkedlists/examexercises/students.c || cmake_object_order_depends_target_students
+  DEP_FILE = CMakeFiles\students.dir\linkedlists\examexercises\students.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\students.dir
+  OBJECT_FILE_DIR = CMakeFiles\students.dir\linkedlists\examexercises
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target students
+
+
+#############################################
+# Link the executable students.exe
+
+build students.exe: C_EXECUTABLE_LINKER__students_Debug CMakeFiles/students.dir/linkedlists/examexercises/students.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\students.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = students.exe
+  TARGET_IMPLIB = libstudents.dll.a
+  TARGET_PDB = students.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1372,8 +1372,6 @@ build maxmin: phony maxmin.exe
 
 build palindrom: phony palindrom.exe
 
-build pascalstriangle: phony pascalstriangle.exe
-
 build perfectnumber: phony perfectnumber.exe
 
 build s2u: phony s2u.exe
@@ -1385,6 +1383,8 @@ build stars: phony stars.exe
 build stringreverse: phony stringreverse.exe
 
 build structs: phony structs.exe
+
+build students: phony students.exe
 
 build sumandproduct: phony sumandproduct.exe
 
@@ -1404,7 +1404,7 @@ build yeterartik: phony yeterartik.exe
 #############################################
 # Folder: C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug
 
-build all: phony sumandproduct.exe s2u.exe maxmin.exe stringreverse.exe perfectnumber.exe equalsarray.exe greatestcommondivisor.exe leapyear.exe bytesofdatatypes.exe square.exe pascalstriangle.exe copy.exe foo.exe structs.exe exercise1.exe exercise2.exe exercise3.exe exercise4.exe exercise.5.exe exercise6.exe exercise7.exe exercise8.exe example.exe examplefromslides.exe test.exe dene.exe linkedList.exe yeterartik.exe listwithpointers.exe llmanipulation.exe frequency.exe wordcounter.exe bubblesort.exe palindrom.exe binaryrep.exe containsnumber.exe vowels.exe stars.exe
+build all: phony sumandproduct.exe s2u.exe maxmin.exe stringreverse.exe perfectnumber.exe equalsarray.exe greatestcommondivisor.exe leapyear.exe bytesofdatatypes.exe square.exe copy.exe foo.exe structs.exe exercise1.exe exercise2.exe exercise3.exe exercise4.exe exercise.5.exe exercise6.exe exercise7.exe exercise8.exe example.exe examplefromslides.exe test.exe dene.exe linkedList.exe yeterartik.exe listwithpointers.exe llmanipulation.exe frequency.exe wordcounter.exe bubblesort.exe palindrom.exe binaryrep.exe containsnumber.exe vowels.exe stars.exe students.exe
 
 # =============================================================================
 # Built-in targets
