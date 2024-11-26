@@ -832,6 +832,468 @@ build examplefromslides.exe: C_EXECUTABLE_LINKER__examplefromslides_Debug CMakeF
   TARGET_IMPLIB = libexamplefromslides.dll.a
   TARGET_PDB = examplefromslides.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || .
+
+build CMakeFiles/test.dir/linkedlists/linkedlistsexerciseswithfuntions/test.c.obj: C_COMPILER__test_unscanned_Debug C$:/Users/Irmak/CLionProjects/ExercisesInC/linkedlists/linkedlistsexerciseswithfuntions/test.c || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles\test.dir\linkedlists\linkedlistsexerciseswithfuntions\test.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir\linkedlists\linkedlistsexerciseswithfuntions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable test.exe
+
+build test.exe: C_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/linkedlists/linkedlistsexerciseswithfuntions/test.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test.exe
+  TARGET_IMPLIB = libtest.dll.a
+  TARGET_PDB = test.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dene
+
+
+#############################################
+# Order-only phony target for dene
+
+build cmake_object_order_depends_target_dene: phony || .
+
+build CMakeFiles/dene.dir/linkedlists/linkedlistsexerciseswithfuntions/dene.c.obj: C_COMPILER__dene_unscanned_Debug C$:/Users/Irmak/CLionProjects/ExercisesInC/linkedlists/linkedlistsexerciseswithfuntions/dene.c || cmake_object_order_depends_target_dene
+  DEP_FILE = CMakeFiles\dene.dir\linkedlists\linkedlistsexerciseswithfuntions\dene.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\dene.dir
+  OBJECT_FILE_DIR = CMakeFiles\dene.dir\linkedlists\linkedlistsexerciseswithfuntions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dene
+
+
+#############################################
+# Link the executable dene.exe
+
+build dene.exe: C_EXECUTABLE_LINKER__dene_Debug CMakeFiles/dene.dir/linkedlists/linkedlistsexerciseswithfuntions/dene.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\dene.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = dene.exe
+  TARGET_IMPLIB = libdene.dll.a
+  TARGET_PDB = dene.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target linkedList
+
+
+#############################################
+# Order-only phony target for linkedList
+
+build cmake_object_order_depends_target_linkedList: phony || .
+
+build CMakeFiles/linkedList.dir/linkedlists/linkedlistsexerciseswithfuntions/linkedList.c.obj: C_COMPILER__linkedList_unscanned_Debug C$:/Users/Irmak/CLionProjects/ExercisesInC/linkedlists/linkedlistsexerciseswithfuntions/linkedList.c || cmake_object_order_depends_target_linkedList
+  DEP_FILE = CMakeFiles\linkedList.dir\linkedlists\linkedlistsexerciseswithfuntions\linkedList.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\linkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkedList.dir\linkedlists\linkedlistsexerciseswithfuntions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target linkedList
+
+
+#############################################
+# Link the executable linkedList.exe
+
+build linkedList.exe: C_EXECUTABLE_LINKER__linkedList_Debug CMakeFiles/linkedList.dir/linkedlists/linkedlistsexerciseswithfuntions/linkedList.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\linkedList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = linkedList.exe
+  TARGET_IMPLIB = liblinkedList.dll.a
+  TARGET_PDB = linkedList.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target yeterartik
+
+
+#############################################
+# Order-only phony target for yeterartik
+
+build cmake_object_order_depends_target_yeterartik: phony || .
+
+build CMakeFiles/yeterartik.dir/linkedlists/linkedlistsexerciseswithfuntions/yeterartik.c.obj: C_COMPILER__yeterartik_unscanned_Debug C$:/Users/Irmak/CLionProjects/ExercisesInC/linkedlists/linkedlistsexerciseswithfuntions/yeterartik.c || cmake_object_order_depends_target_yeterartik
+  DEP_FILE = CMakeFiles\yeterartik.dir\linkedlists\linkedlistsexerciseswithfuntions\yeterartik.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\yeterartik.dir
+  OBJECT_FILE_DIR = CMakeFiles\yeterartik.dir\linkedlists\linkedlistsexerciseswithfuntions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target yeterartik
+
+
+#############################################
+# Link the executable yeterartik.exe
+
+build yeterartik.exe: C_EXECUTABLE_LINKER__yeterartik_Debug CMakeFiles/yeterartik.dir/linkedlists/linkedlistsexerciseswithfuntions/yeterartik.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\yeterartik.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = yeterartik.exe
+  TARGET_IMPLIB = libyeterartik.dll.a
+  TARGET_PDB = yeterartik.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target listwithpointers
+
+
+#############################################
+# Order-only phony target for listwithpointers
+
+build cmake_object_order_depends_target_listwithpointers: phony || .
+
+build CMakeFiles/listwithpointers.dir/linkedlists/examexercises/listwithpointers.c.obj: C_COMPILER__listwithpointers_unscanned_Debug C$:/Users/Irmak/CLionProjects/ExercisesInC/linkedlists/examexercises/listwithpointers.c || cmake_object_order_depends_target_listwithpointers
+  DEP_FILE = CMakeFiles\listwithpointers.dir\linkedlists\examexercises\listwithpointers.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\listwithpointers.dir
+  OBJECT_FILE_DIR = CMakeFiles\listwithpointers.dir\linkedlists\examexercises
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target listwithpointers
+
+
+#############################################
+# Link the executable listwithpointers.exe
+
+build listwithpointers.exe: C_EXECUTABLE_LINKER__listwithpointers_Debug CMakeFiles/listwithpointers.dir/linkedlists/examexercises/listwithpointers.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\listwithpointers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = listwithpointers.exe
+  TARGET_IMPLIB = liblistwithpointers.dll.a
+  TARGET_PDB = listwithpointers.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target llmanipulation
+
+
+#############################################
+# Order-only phony target for llmanipulation
+
+build cmake_object_order_depends_target_llmanipulation: phony || .
+
+build CMakeFiles/llmanipulation.dir/linkedlists/examexercises/llmanipulation.c.obj: C_COMPILER__llmanipulation_unscanned_Debug C$:/Users/Irmak/CLionProjects/ExercisesInC/linkedlists/examexercises/llmanipulation.c || cmake_object_order_depends_target_llmanipulation
+  DEP_FILE = CMakeFiles\llmanipulation.dir\linkedlists\examexercises\llmanipulation.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\llmanipulation.dir
+  OBJECT_FILE_DIR = CMakeFiles\llmanipulation.dir\linkedlists\examexercises
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target llmanipulation
+
+
+#############################################
+# Link the executable llmanipulation.exe
+
+build llmanipulation.exe: C_EXECUTABLE_LINKER__llmanipulation_Debug CMakeFiles/llmanipulation.dir/linkedlists/examexercises/llmanipulation.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\llmanipulation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = llmanipulation.exe
+  TARGET_IMPLIB = libllmanipulation.dll.a
+  TARGET_PDB = llmanipulation.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target frequency
+
+
+#############################################
+# Order-only phony target for frequency
+
+build cmake_object_order_depends_target_frequency: phony || .
+
+build CMakeFiles/frequency.dir/advanced/frequency.c.obj: C_COMPILER__frequency_unscanned_Debug C$:/Users/Irmak/CLionProjects/ExercisesInC/advanced/frequency.c || cmake_object_order_depends_target_frequency
+  DEP_FILE = CMakeFiles\frequency.dir\advanced\frequency.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\frequency.dir
+  OBJECT_FILE_DIR = CMakeFiles\frequency.dir\advanced
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target frequency
+
+
+#############################################
+# Link the executable frequency.exe
+
+build frequency.exe: C_EXECUTABLE_LINKER__frequency_Debug CMakeFiles/frequency.dir/advanced/frequency.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\frequency.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = frequency.exe
+  TARGET_IMPLIB = libfrequency.dll.a
+  TARGET_PDB = frequency.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target wordcounter
+
+
+#############################################
+# Order-only phony target for wordcounter
+
+build cmake_object_order_depends_target_wordcounter: phony || .
+
+build CMakeFiles/wordcounter.dir/advanced/wordcounter.c.obj: C_COMPILER__wordcounter_unscanned_Debug C$:/Users/Irmak/CLionProjects/ExercisesInC/advanced/wordcounter.c || cmake_object_order_depends_target_wordcounter
+  DEP_FILE = CMakeFiles\wordcounter.dir\advanced\wordcounter.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\wordcounter.dir
+  OBJECT_FILE_DIR = CMakeFiles\wordcounter.dir\advanced
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target wordcounter
+
+
+#############################################
+# Link the executable wordcounter.exe
+
+build wordcounter.exe: C_EXECUTABLE_LINKER__wordcounter_Debug CMakeFiles/wordcounter.dir/advanced/wordcounter.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\wordcounter.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = wordcounter.exe
+  TARGET_IMPLIB = libwordcounter.dll.a
+  TARGET_PDB = wordcounter.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bubblesort
+
+
+#############################################
+# Order-only phony target for bubblesort
+
+build cmake_object_order_depends_target_bubblesort: phony || .
+
+build CMakeFiles/bubblesort.dir/advanced/bubblesort.c.obj: C_COMPILER__bubblesort_unscanned_Debug C$:/Users/Irmak/CLionProjects/ExercisesInC/advanced/bubblesort.c || cmake_object_order_depends_target_bubblesort
+  DEP_FILE = CMakeFiles\bubblesort.dir\advanced\bubblesort.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\bubblesort.dir
+  OBJECT_FILE_DIR = CMakeFiles\bubblesort.dir\advanced
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bubblesort
+
+
+#############################################
+# Link the executable bubblesort.exe
+
+build bubblesort.exe: C_EXECUTABLE_LINKER__bubblesort_Debug CMakeFiles/bubblesort.dir/advanced/bubblesort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\bubblesort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bubblesort.exe
+  TARGET_IMPLIB = libbubblesort.dll.a
+  TARGET_PDB = bubblesort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target palindrom
+
+
+#############################################
+# Order-only phony target for palindrom
+
+build cmake_object_order_depends_target_palindrom: phony || .
+
+build CMakeFiles/palindrom.dir/advanced/palindrom.c.obj: C_COMPILER__palindrom_unscanned_Debug C$:/Users/Irmak/CLionProjects/ExercisesInC/advanced/palindrom.c || cmake_object_order_depends_target_palindrom
+  DEP_FILE = CMakeFiles\palindrom.dir\advanced\palindrom.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\palindrom.dir
+  OBJECT_FILE_DIR = CMakeFiles\palindrom.dir\advanced
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target palindrom
+
+
+#############################################
+# Link the executable palindrom.exe
+
+build palindrom.exe: C_EXECUTABLE_LINKER__palindrom_Debug CMakeFiles/palindrom.dir/advanced/palindrom.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\palindrom.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = palindrom.exe
+  TARGET_IMPLIB = libpalindrom.dll.a
+  TARGET_PDB = palindrom.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target binaryrep
+
+
+#############################################
+# Order-only phony target for binaryrep
+
+build cmake_object_order_depends_target_binaryrep: phony || .
+
+build CMakeFiles/binaryrep.dir/advanced/binaryrep.c.obj: C_COMPILER__binaryrep_unscanned_Debug C$:/Users/Irmak/CLionProjects/ExercisesInC/advanced/binaryrep.c || cmake_object_order_depends_target_binaryrep
+  DEP_FILE = CMakeFiles\binaryrep.dir\advanced\binaryrep.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\binaryrep.dir
+  OBJECT_FILE_DIR = CMakeFiles\binaryrep.dir\advanced
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binaryrep
+
+
+#############################################
+# Link the executable binaryrep.exe
+
+build binaryrep.exe: C_EXECUTABLE_LINKER__binaryrep_Debug CMakeFiles/binaryrep.dir/advanced/binaryrep.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\binaryrep.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = binaryrep.exe
+  TARGET_IMPLIB = libbinaryrep.dll.a
+  TARGET_PDB = binaryrep.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target containsnumber
+
+
+#############################################
+# Order-only phony target for containsnumber
+
+build cmake_object_order_depends_target_containsnumber: phony || .
+
+build CMakeFiles/containsnumber.dir/advanced/containsnumber.c.obj: C_COMPILER__containsnumber_unscanned_Debug C$:/Users/Irmak/CLionProjects/ExercisesInC/advanced/containsnumber.c || cmake_object_order_depends_target_containsnumber
+  DEP_FILE = CMakeFiles\containsnumber.dir\advanced\containsnumber.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\containsnumber.dir
+  OBJECT_FILE_DIR = CMakeFiles\containsnumber.dir\advanced
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target containsnumber
+
+
+#############################################
+# Link the executable containsnumber.exe
+
+build containsnumber.exe: C_EXECUTABLE_LINKER__containsnumber_Debug CMakeFiles/containsnumber.dir/advanced/containsnumber.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\containsnumber.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = containsnumber.exe
+  TARGET_IMPLIB = libcontainsnumber.dll.a
+  TARGET_PDB = containsnumber.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target vowels
+
+
+#############################################
+# Order-only phony target for vowels
+
+build cmake_object_order_depends_target_vowels: phony || .
+
+build CMakeFiles/vowels.dir/advanced/vowels.c.obj: C_COMPILER__vowels_unscanned_Debug C$:/Users/Irmak/CLionProjects/ExercisesInC/advanced/vowels.c || cmake_object_order_depends_target_vowels
+  DEP_FILE = CMakeFiles\vowels.dir\advanced\vowels.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\vowels.dir
+  OBJECT_FILE_DIR = CMakeFiles\vowels.dir\advanced
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vowels
+
+
+#############################################
+# Link the executable vowels.exe
+
+build vowels.exe: C_EXECUTABLE_LINKER__vowels_Debug CMakeFiles/vowels.dir/advanced/vowels.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\vowels.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = vowels.exe
+  TARGET_IMPLIB = libvowels.dll.a
+  TARGET_PDB = vowels.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target stars
+
+
+#############################################
+# Order-only phony target for stars
+
+build cmake_object_order_depends_target_stars: phony || .
+
+build CMakeFiles/stars.dir/advanced/stars.c.obj: C_COMPILER__stars_unscanned_Debug C$:/Users/Irmak/CLionProjects/ExercisesInC/advanced/stars.c || cmake_object_order_depends_target_stars
+  DEP_FILE = CMakeFiles\stars.dir\advanced\stars.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\stars.dir
+  OBJECT_FILE_DIR = CMakeFiles\stars.dir\advanced
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stars
+
+
+#############################################
+# Link the executable stars.exe
+
+build stars.exe: C_EXECUTABLE_LINKER__stars_Debug CMakeFiles/stars.dir/advanced/stars.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\stars.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = stars.exe
+  TARGET_IMPLIB = libstars.dll.a
+  TARGET_PDB = stars.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -858,9 +1320,17 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build binaryrep: phony binaryrep.exe
+
+build bubblesort: phony bubblesort.exe
+
 build bytesofdatatypes: phony bytesofdatatypes.exe
 
+build containsnumber: phony containsnumber.exe
+
 build copy: phony copy.exe
+
+build dene: phony dene.exe
 
 build equalsarray: phony equalsarray.exe
 
@@ -886,11 +1356,21 @@ build exercise8: phony exercise8.exe
 
 build foo: phony foo.exe
 
+build frequency: phony frequency.exe
+
 build greatestcommondivisor: phony greatestcommondivisor.exe
 
 build leapyear: phony leapyear.exe
 
+build linkedList: phony linkedList.exe
+
+build listwithpointers: phony listwithpointers.exe
+
+build llmanipulation: phony llmanipulation.exe
+
 build maxmin: phony maxmin.exe
+
+build palindrom: phony palindrom.exe
 
 build pascalstriangle: phony pascalstriangle.exe
 
@@ -900,11 +1380,21 @@ build s2u: phony s2u.exe
 
 build square: phony square.exe
 
+build stars: phony stars.exe
+
 build stringreverse: phony stringreverse.exe
 
 build structs: phony structs.exe
 
 build sumandproduct: phony sumandproduct.exe
+
+build test: phony test.exe
+
+build vowels: phony vowels.exe
+
+build wordcounter: phony wordcounter.exe
+
+build yeterartik: phony yeterartik.exe
 
 # =============================================================================
 # Folder targets.
@@ -914,7 +1404,7 @@ build sumandproduct: phony sumandproduct.exe
 #############################################
 # Folder: C:/Users/Irmak/CLionProjects/ExercisesInC/cmake-build-debug
 
-build all: phony sumandproduct.exe s2u.exe maxmin.exe stringreverse.exe perfectnumber.exe equalsarray.exe greatestcommondivisor.exe leapyear.exe bytesofdatatypes.exe square.exe pascalstriangle.exe copy.exe foo.exe structs.exe exercise1.exe exercise2.exe exercise3.exe exercise4.exe exercise.5.exe exercise6.exe exercise7.exe exercise8.exe example.exe examplefromslides.exe
+build all: phony sumandproduct.exe s2u.exe maxmin.exe stringreverse.exe perfectnumber.exe equalsarray.exe greatestcommondivisor.exe leapyear.exe bytesofdatatypes.exe square.exe pascalstriangle.exe copy.exe foo.exe structs.exe exercise1.exe exercise2.exe exercise3.exe exercise4.exe exercise.5.exe exercise6.exe exercise7.exe exercise8.exe example.exe examplefromslides.exe test.exe dene.exe linkedList.exe yeterartik.exe listwithpointers.exe llmanipulation.exe frequency.exe wordcounter.exe bubblesort.exe palindrom.exe binaryrep.exe containsnumber.exe vowels.exe stars.exe
 
 # =============================================================================
 # Built-in targets
